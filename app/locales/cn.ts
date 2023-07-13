@@ -114,7 +114,7 @@ const cn = {
   },
   Settings: {
     Title: "设置",
-    SubTitle: "所有设置选项",
+    SubTitle: "没事别乱改哈😉",
 
     Danger: {
       Reset: {
