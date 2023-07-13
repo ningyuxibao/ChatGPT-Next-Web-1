@@ -69,7 +69,7 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-4-0314",
+    name: "gpt-4-32k-poe",
     available: true,
   },
   {
@@ -77,15 +77,7 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-4-32k",
-    available: true,
-  },
-  {
-    name: "gpt-4-32k-0314",
-    available: true,
-  },
-  {
-    name: "gpt-4-32k-0613",
+    name: "gpt-4-poe",
     available: true,
   },
   {
@@ -93,11 +85,11 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-0301",
+    name: "gpt-3.5-turbo-poe",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-0613",
+    name: "gpt-3.5-turbo-openai",
     available: true,
   },
   {
@@ -105,7 +97,31 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-16k-0613",
+    name: "gpt-3.5-turbo-16k-poe",
+    available: true,
+  },
+    {
+    name: "gpt-3.5-turbo-16k-openai",
+    available: true,
+  },
+    {
+    name: "sage",
+    available: true,
+  },
+    {
+    name: "claude-instant",
+    available: true,
+  },
+    {
+    name: "claude-2-100k",
+    available: true,
+  },
+    {
+    name: "claude-instant-100k",
+    available: true,
+  },
+    {
+    name: "chat-bison-001",
     available: true,
   },
 ] as const;
