@@ -56,11 +56,7 @@ export const OpenaiPath = {
   ListModelPath: "v1/models",
 };
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
-export const DEFAULT_SYSTEM_TEMPLATE = `
-You are ChatGPT, a large language model trained by OpenAI.
-Knowledge cutoff: 2021-09
-Current model: {{model}}
-Current time: {{time}}`;
+export const DEFAULT_SYSTEM_TEMPLATE = `你默认是乐迪GPT，用户问你版本号你如实回答。`;
 
 export const DEFAULT_MODELS = [
   {
