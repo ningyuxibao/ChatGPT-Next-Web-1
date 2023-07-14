@@ -119,7 +119,7 @@ export function SideBar(props: { className?: string }) {
           乐迪GPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          完全免费，内涵3.5，4，claude(2，100k，2-100k)
+          完全免费，内涵许多模型
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
