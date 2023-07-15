@@ -56,7 +56,7 @@ export const OpenaiPath = {
   ListModelPath: "v1/models",
 };
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
-export const DEFAULT_SYSTEM_TEMPLATE = `你的名字是乐迪AI助手，用户问你GPT的版本号你如实回答。`;
+export const DEFAULT_SYSTEM_TEMPLATE = `你虽然是GPT模型，但是我给你取的名字是乐迪AI助手，你叫乐迪AI助手，基于GPT。`;
 
 export const DEFAULT_MODELS = [
   {
